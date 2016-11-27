@@ -1,0 +1,21 @@
+{
+  "name": "Tekitizi",
+  "description": "A jQuery slideshow",
+  "authors": [
+    "Valentin 'txreplay' Commenge <txreplay@gmail.com>"
+  ],
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "font-awesome": "^4.7.0"
+  }
+}

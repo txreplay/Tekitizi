@@ -1,0 +1,95 @@
+/* IMAGES */
+
+/* Wrapper around image */
+.tekitizi-wrapper {
+  position: relative;
+}
+
+/* Button to open the slideshow */
+.tekitizi-open-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background: white;
+  background-size: 12px 12px;
+  border-radius: 100%;
+  cursor: pointer;
+  text-align: center;
+  padding: 3px 0;
+  box-sizing: border-box;
+}
+
+/* Slideshow */
+.tekitizi-slideshow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.tekitizi-slideshow.tekitizi-slideshow-open {
+  display: block;
+}
+
+.tekitizi-slideshow-btns {
+  position: absolute;
+  border-radius: 100%;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+	z-index: 99;
+}
+
+.tekitizi-slideshow-close-btn {
+	top: 10px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+  background: white;
+  background-size: 12px 12px;
+  padding: 2px 0;
+}
+
+.tekitizi-slideshow-control {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  background: white;
+  font-size: 50px;
+}
+
+.tekitizi-slideshow-next-btn {
+  right: 10px;
+}
+
+.tekitizi-slideshow-prev-btn {
+  left: 10px;
+}
+
+.tekitizi-slideshow-play-btn {
+
+}
+
+.tekitizi-slideshow-pause-btn {
+
+}
+
+.tekitizi-slideshow-content {
+  background: transparent;
+	position: relative;
+  height: 75%;
+  margin: 10px auto;
+}
+
+.tekitizi-slideshow-content-image {
+    height: 100%;
+}
+
+.tekitizi-slideshow-content-image-title {
+
+}
